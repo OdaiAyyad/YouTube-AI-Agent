@@ -26,20 +26,10 @@ import re
 
 ## Set API Keys
 
-os.environ["OPENAI_API_KEY"] = "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"
-os.environ["YOUTUBE_API_KEY"] = "AIzaSyD1erYGrTCwx6wLd4s_X_4AsU6LeqNe1XI"
+os.environ["OPENAI_API_KEY"] = "paste-your-api-key-here"
+os.environ["YOUTUBE_API_KEY"] = "paste-your-api-key-here"
 openai.api_key = os.environ["OPENAI_API_KEY"]
 YOUTUBE_API_KEY = os.environ["YOUTUBE_API_KEY"]
-
-## User Input
-
-# channel_id = input("Enter your YouTube channel ID: ")
-# video_idea = input("Enter your next video idea: ")
-# style_input = input("Choose title style - 1. Conservative / 2. Bold / 3. Trendy: ")
-
-# Map style
-# style_map = {"1": "Conservative", "2": "Bold", "3": "Trendy"}
-# title_style = style_map.get(style_input, "Trendy")
 
 # Tools
 
