@@ -18,17 +18,7 @@ A multi-tool autonomous AI Agent that analyzes any YouTube channel based on a pr
 
 ---
 
-## 🧠 Agent Architecture
-
-- **Agent Type**: `create_react_agent()` from LangGraph
-- **Model Used**: `gpt-4o-mini` for reasoning, tool routing, and general instructions
-- **Q&A Fallback**: `gpt-3.5-turbo` used in Mini Q&A Tool
-- **Memory**: Enabled with `MemorySaver()` to retain context across the run
-- **Tool Routing**: Intelligent function calling using tool schema descriptions
-
----
-
-## 🔧 Tech Stack & Tools
+## 🔧 Agent Architecture
 
 | Component     | Used Technology              |
 |--------------|------------------------------|
@@ -37,7 +27,7 @@ A multi-tool autonomous AI Agent that analyzes any YouTube channel based on a pr
 | 🎛️ Agent Flow | create_react_agent()         |
 | 📊 Viz        | Plotly, Matplotlib, HTML      |
 | 📺 Data API   | YouTube Data API v3          |
-| 🎙️ Audio      | Whisper (for voice input – optional) |
+| 🎙️ Audio      | gTTS, Whisper (for voice input – optional) |
 | 🌐 Frontend   | Streamlit                    |
 
 ---
