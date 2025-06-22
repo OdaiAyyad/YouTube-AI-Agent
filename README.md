@@ -33,4 +33,8 @@ A multi-tool autonomous AI Agent that analyzes any YouTube channel based on a pr
 ---
 
 ## 📂 Project Structure
-
+├── UI.py # 🎨 Streamlit UI
+├── youtube_agent.py # 🤖 Main agent logic + tools
+├── README.md # 📘 You’re reading it!
+├── requirements.txt
+└── 📄 .env
