@@ -1,0 +1,14 @@
+streamlit
+langchain
+langchain-openai
+langgraph
+openai
+google-api-python-client
+plotly
+pandas
+numpy
+python-dotenv
+whisper
+gtts
+SpeechRecognition
+pyaudio
