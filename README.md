@@ -40,7 +40,3 @@ A multi-tool autonomous AI Agent that analyzes any YouTube channel based on a pr
 ├── README.md # 📘 You’re reading it!
 
 ├── requirements.txt
-
-└── 📄 .env
-
-
