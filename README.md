@@ -1,29 +1,46 @@
-# 🤖 YouTube AI Agent – GPT-Powered Analytics & Automation Dashboard 🎬
+# 🤖 YouTube AI Agent Dashboard 🎬  
+> Built with LangChain, LangGraph, GPT, Streamlit, and the YouTube Data API
 
-## A multi-agent LLM-powered app that analyzes YouTube channels, generates content, and provides intelligent insights using GPT-4o mini, LangChain, and Streamlit.
+A multi-tool autonomous AI Agent that analyzes any YouTube channel based on a provided Channel ID and a new video idea. It generates catchy titles, descriptions, thumbnails, scheduling insights, interactive charts, and more — all in one streamlined dashboard!
 
-## 🚀 Project Overview
-This project is an AI Agent designed to assist YouTube content creators by automating channel analysis, title and description generation, thumbnail suggestions, and best posting time recommendations—all powered by LLMs and interactive data visualizations.
+---
 
-✅ Built with LangChain, Streamlit, and OpenAI GPT APIs
+## 📌 Project Features
 
-✅ Integrates multiple tools with agent routing logic
+✅ Multi-step agentic workflow (LangChain)  
+✅ Human-style outputs powered by GPT-4o Mini  
+✅ Integrated Q&A and regeneration tools  
+✅ Two interactive visualizations (Plotly)  
+✅ AI-generated title, description, and thumbnail  
+✅ YouTube Data API-powered channel analysis  
+✅ Clean Streamlit UI, emoji-rich and styled  
+✅ Memory-enabled using `MemorySaver`  
 
-✅ Supports Q&A feature, regeneration, and memory
+---
 
-✅ Generates interactive HTML visualizations
+## 🧠 Agent Architecture
 
-✅ User-friendly interface for creators & analysts
+- **Agent Type**: `create_react_agent()` from LangGraph
+- **Model Used**: `gpt-4o-mini` for reasoning, tool routing, and general instructions
+- **Q&A Fallback**: `gpt-3.5-turbo` used in Mini Q&A Tool
+- **Memory**: Enabled with `MemorySaver()` to retain context across the run
+- **Tool Routing**: Intelligent function calling using tool schema descriptions
 
+---
 
-## 🧠 Key Features
+## 🔧 Tech Stack & Tools
 
-### 🔍 Channel Analyzer
-### 📝 Title Generator
-### ✍️ Description Generator
-### ⏰ Best Posting Time Advisor
-### 🖼️ Thumbnail Generator
-### 💬 Q&A System
-### 📊 Interactive Charts
-### 🎤 (Optional) Voice Q&A Mode
+| Component     | Used Technology              |
+|--------------|------------------------------|
+| 🧠 LLM        | OpenAI GPT-4o Mini, GPT-3.5   |
+| 🧰 Framework  | LangChain, LangGraph         |
+| 🎛️ Agent Flow | create_react_agent()         |
+| 📊 Viz        | Plotly, Matplotlib, HTML      |
+| 📺 Data API   | YouTube Data API v3          |
+| 🎙️ Audio      | Whisper (for voice input – optional) |
+| 🌐 Frontend   | Streamlit                    |
+
+---
+
+## 📂 Project Structure
 
