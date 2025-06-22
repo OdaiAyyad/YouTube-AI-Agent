@@ -32,7 +32,7 @@ A multi-tool autonomous AI Agent that analyzes any YouTube channel based on a pr
 
 | Component     | Used Technology              |
 |--------------|------------------------------|
-| 🧠 LLM        | OpenAI GPT-4o Mini, GPT-3.5   |
+| 🧠 LLM        | OpenAI GPT-4o, GPT-4o Mini, GPT-3.5 Turbo  |
 | 🧰 Framework  | LangChain, LangGraph         |
 | 🎛️ Agent Flow | create_react_agent()         |
 | 📊 Viz        | Plotly, Matplotlib, HTML      |
